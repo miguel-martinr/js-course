@@ -104,7 +104,7 @@ function changePlayer() {
   activePlayer === 1 ? activePlayer-- : activePlayer++;
   document.querySelector('.player-0-panel').classList.toggle('active');
   document.querySelector('.player-1-panel').classList.toggle('active');
-  hisory = 0;
+  history = 0;
 }
 
 function upPlayerScore(player, value) {
